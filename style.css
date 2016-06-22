@@ -1,4 +1,6 @@
-
+hr {
+	border-color:#000000!important;
+}
 #ul-bar {
 	padding-left:310px;
 	font-size:1.2em;
@@ -9,4 +11,57 @@
 background-color:#9b9898!important;
 color:#ffffff!important;
 font-family: 'Courgette', cursive!important;
+}
+
+.header-text {
+	padding-left:230px;
+	color:black!important;
+}
+
+#header-text1 {
+	padding-left:280px;
+}
+
+.h2-text {
+	font-size:2.9em;
+	padding:0 0 0 100px;
+	font-family: 'Courgette', cursive!important;
+}
+
+#section-container {
+	background-color:cec8c8!important;
+}
+#container {
+	height:300px;
+	margin-top:-30px;
+}
+
+
+#contact-p {
+	text-align:center;
+}
+#contact-button {
+	text-align:center;
+}
+#feature-section{
+	width:100%!important;
+}
+#image1 {
+	height:350px;
+	width:350px;
+}
+
+#image2 {
+	height:350px;
+	width:550px;
+	margin-bottom:20px;
+}
+
+#row1 {
+	padding-top:20px;
+}
+
+.panel-body {
+	
+	border: 1px solid black!important;
 }
