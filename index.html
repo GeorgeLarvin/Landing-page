@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
 	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
 <!--end of cdn -->
 	
 <!--google fonts -->
@@ -26,9 +26,8 @@
 </head>
 <body>
 
-	<!-- Nav bar -->
+	<!-- Navbar -->
 	<nav class="navbar navbar-default navbar-fixed-top" id="main-navbar" role="navigation">
-		
 		<div class="container">
 			
 			<div class="navbar-header">
@@ -114,8 +113,8 @@
 				<br />
 		</section> <!-- end testimonials section -->
 	
-	
-		<section id="feature-section"> <!-- start feature section -->
+	<!-- start feature section -->
+		<section id="feature-section"> 
 			<div class="page-header" id="section-features">
 				<h2 class="h2-text">Features <small class="header-text" id="header-text1">these are the features of our product</small></h2>
 			</div>
@@ -136,7 +135,7 @@
 					<p>This is some infomation on the feature</p>
 				</div>
 				<div class="col-lg-4">
-					<img id="image1" src="image2.jpg" alt="feature image" class="image-responsive" />
+					<img id="image2" src="image2.jpg" alt="feature image" class="image-responsive" />
 				</div>
 			</div>
 			
@@ -146,7 +145,7 @@
 					<p>This is some infomation on the feature</p>
 				</div>
 				<div class="col-lg-4">
-					<img id="image2" src="image3.png" alt="feature image" class="image-responsive" />
+					<img id="image3" src="image3.png" alt="feature image" class="image-responsive" />
 				</div>
 			</div>
 			
@@ -185,9 +184,58 @@
 			<hr />
 		</section>
 		
-		
 	</div><!--End container -->
 
+	<!-- carousel gallery -->
+	<div class="container">
+		<section id="carousel-gallery">
+			<div class="page-holder" id="section-gallery">
+				<h2>Gallery. <small>Take a look at our gallery product images.</small></h2>
+			</div>
+
+			<div class="carousel slide" id="gallery-carousel" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#gallery-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#gallery-carousel" data-slide-to="1"></li>
+					<li data-target="#gallery-carousel" data-slide-to="2"></li>
+					<li data-target="#gallery-carousel" data-slide-to="3"></li>
+				</ol>
+
+				<div class="carousel-inner">
+					<div class="item active">
+							<img src="images/slider-1.jpg" alt="Slider image" images="" class="carousel-img" >
+							
+					</div>
+					<div class="item">
+							<img src="images/slider-2.jpg" alt="Slider image" images="" class="carousel-img" >
+							
+					</div>
+					<div class="item">
+							<img src="images/slider-3.jpg" alt="Slider image" images="" class="carousel-img" >
+							
+					</div>
+					
+
+				</div>
+
+				<a href="#gallery-carousel" class="left carousel-control" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a href="#gallery-carousel" class="right carousel-control" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+		</section>
+					
+				
+				
+	</div>
+			
+			</div>
+		</section>
+	</div>
+	
+	
 
 </body>
 </html>
