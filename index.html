@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Landing page</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta charset="utf-8"/>
+	<title>Learning Bootstrap</title>
+	<meta name="desciption" content="Web Lab Dev" />
+	<meta name="Author" content="George Larvin" />
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
-<!-- bootstrap cdn -->
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-	<!-- Latest compiled and minified JavaScript -->
-	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
-<!--end of cdn -->
+	<!-- Mobile specific Meta -->
+	<meta name="viewport" content="mobile-device-width, initial-scale=1, maximum-scale=1" />
 	
-<!--google fonts -->
+		<!-- latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	
+	<!--google fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
-<!-- end of fonts-->	
+<!-- end of fonts-->
 	
 </head>
-<body>
 
-	<!-- Navbar -->
+<body>
+	
+	<!-- Nav Bar -->
 	<nav class="navbar navbar-default navbar-fixed-top" id="main-navbar" role="navigation">
+		
 		<div class="container">
 			
 			<div class="navbar-header">
@@ -58,62 +59,63 @@
 		</div> <!-- end conatiner -->
 		
 	</nav> 
-	<!-- end nav -->
+	<!-- End of NavBar -->
 
+	<!-- Jumbotron -->
 	<div class="jumbotron">
-		<div class="container text-center">
-			<h1>About this product</h1>
-			<p>Some in-depth infomation about the product</p>
-				
+		<div class="container text-center"> 
+			<h1>This is an awesome product</h1>
+			<p>You will love this app forever, its that good</p>
+			
 				<div class="btn-group1">
-					<a href="#" class="btn btn-lg btn-success">Buy Now</a>
-					<a href="#" class="btn btn-lg btn-default">try it free now!</a>
-					
-				</div><!-- end btn-group-->
 				
-		</div><!-- end of container-->
-	</div><!-- end jumbotron-->
+					<a href="#" class="btn btn-lg btn-success">Buy Now </a>
+					<a href="#" class="btn btn-lg btn-default"> Try it free</a>
+				
+				</div> <!--End of btn-group -->
+			
+		</div> <!-- End of container -->
+	</div> <!-- End Jumbotron -->
 	
 	<div class="container" id="container">
-	
 		<section id="section-container">
 			<div class="page-header" id="section-testimonials">
-				<h2 class="h2-text">Testimonials<small class="header-text"> this is where the testimonials will be</small></h2>
+	
+				<h2 class="h2-text">Testimonials.<small class="header-text"> This is the testimonials</small></h2>
+				<hr />
+				<div class="row" id="row-text">
+					<div class="col-lg-4">
+						<blockquote>
+							<p>This product is awesome, and I love it</p>
+							<footer>Author:George Larvin</footer>
+						</blockquote>
+					</div>
+					
+					<div class="col-lg-4">
+						<blockquote>
+							<P>This product is awesome, and I love it</p>
+							<footer>Author:Carole Pickard</footer>
+						</blockquote>
+					</div>
+					
+					<div class="col-lg-4">
+						<blockquote>
+							<p>This product is awesome, and I love it</p>
+							<footer>Author:Matthew Larvin</footer>
+						</blockquote>
+					</div>
+				</div> <!-- End row -->
 			</div>
 			
-			<div class="row>" id="row-text">
-			
-				<div class="col-lg-4">
-					<blockquote>
-						<p><strong>This would be some text about the product</strong></p>
-					<footer>Author: example</footer>
-					</blockquote>
-					
-				</div>
-				
-				<div class="col-lg-4">
-					<blockquote>
-						<p><strong>This would be some text about the product</strong></p>
-					<footer>Author: example</footer>
-					</blockquote>
-				</div>
-				
-				<div class="col-lg-4">
-					<blockquote>
-						<p><strong>This would be some text about the product</strong></p>
-					<footer>Author: example</footer>
-					</blockquote>
-				</div>
-			</div><!--End row -->	
 				<br />
-				<hr />
-				<p class="border1" id="contact-p"><em>Wanna tell us more ?, Click here to contact us!</em></p>
-				<p class="border1" id="contact-button"><a href="#section-contact" class="btn btn-success">Contact</a></p>
+					<p class="border1" id="contact-p" ><em>Got any feedback for us ?, we would love to hear so Click here to us!</em></p>
+					<p class="border1" id="contact-button" ><a href="#section-contact" class="btn btn-default">Contact us</a></p>	
 				<hr />
 				<br />
-		</section> <!-- end testimonials section -->
-	
-	<!-- start feature section -->
+		</section>
+		
+		<!-- Features -->
+				<!-- start feature section -->
 		<section id="feature-section"> 
 			<div class="page-header" id="section-features">
 				<h2 class="h2-text">Features <small class="header-text" id="header-text1">these are the features of our product</small></h2>
@@ -183,59 +185,204 @@
 			</div>
 			<hr />
 		</section>
+	   <!-- End feature section -->		
 		
-	</div><!--End container -->
-
-	<!-- carousel gallery -->
-	<div class="container">
-		<section id="carousel-gallery">
-			<div class="page-holder" id="section-gallery">
-				<h2>Gallery. <small>Take a look at our gallery product images.</small></h2>
-			</div>
-
-			<div class="carousel slide" id="gallery-carousel" data-ride="carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#gallery-carousel" data-slide-to="0" class="active"></li>
-					<li data-target="#gallery-carousel" data-slide-to="1"></li>
-					<li data-target="#gallery-carousel" data-slide-to="2"></li>
-					<li data-target="#gallery-carousel" data-slide-to="3"></li>
-				</ol>
-
-				<div class="carousel-inner">
-					<div class="item active">
-							<img src="images/slider-1.jpg" alt="Slider image" images="" class="carousel-img" >
-							
-					</div>
-					<div class="item">
-							<img src="images/slider-2.jpg" alt="Slider image" images="" class="carousel-img" >
-							
-					</div>
-					<div class="item">
-							<img src="images/slider-3.jpg" alt="Slider image" images="" class="carousel-img" >
-							
-					</div>
+		<section> <!-- Trail -->
+			<div class="well">
+				<div class="container text-center">
+					<h3>Subscribe for a FREE 30 day trial</h3>
+					<p>Enter your name and email below</p>
 					
-
+					<form action="#" class="form-inline" role="form">
+						<div class="form-group">
+							<label for="subscribe-name" class="sr-only">Name </label>
+							<input type="text" class="form-control" id="subscribe-name" placeholder="name" />
+						</div> 
+						<div class="form-group">
+							<label for="subscribe-email" class="sr-only">Email</label>
+							<input type="text" class="form-control" id="subscribe-email" placeholder="Email" />
+						</div> <!-- End of form group-->
+						<button type="submit" class="btn btn-default">Subscribe</button>
+						<p><small><em>Your email Will not be used for Spam</em></small></p>
+						<p><small><em>Terms and conditions apply</em></small></p>
+					</form>	
 				</div>
-
-				<a href="#gallery-carousel" class="left carousel-control" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left"></span>
-				</a>
-				<a href="#gallery-carousel" class="right carousel-control" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right"></span>
-				</a>
-			</div>
-		</section>
-					
-				
-				
+			</div>	
+		</section> <!--End form section -->	
+	 <!-- End Containter -->
+	
+	<!-- Carousel -->
+	<div class="container">
+	<section>
+	<div class="page-header" id="section-gallery">
+		<h2>Gallery<small> Check it out</small></h2>
 	</div>
+	<div class="carousel slide" data-ride="carousel" id="gallery-carousel">
+		
+		<ol class="carousel-indicators">
+			<li data-target="#gallery-carousel" data-slide-to="0" class="active"></li>
+			<li data-target="#gallery-carousel" data-slide-to="1"></li>
+			<li data-target="#gallery-carousel" data-slide-to="2"></li>
+			<li data-target="#gallery-carousel" data-slide-to="3"></li>
+			<li data-target="#gallery-carousel" data-slide-to="4"></li>
+		</ol>
+		<div class="carousel-inner"> 
+			<div class="item active">
+				<img src="images/feature-1.jpg" alt="slide" class="slide" /> 
+			</div>
+			<div class="item">
+				<img src="images/feature-2.jpg" alt="slide" class="slide" />
+			</div>
+			<div class="item">
+				<img src="images/feature-3.jpg" alt="slide" class="slide" />
+			</div>
+			<div class="item">
+				<img src="images/slider-1.jpg" alt="slide" class="slide" />
+			</div>
+			<div class="item">
+				<img src="images/slider-2.jpg" alt="alide" class="slide" />
+			</div>
+		</div>
+		<a href="#gallery-carousel"  class="left carousel-control" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a href="#gallery-carousel"  class="right carousel-control" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
+		</section>
+		
+		<!-- FAQ -->
+		<section>
+			<div class="page-header" id="section-faq">
+				<h2>FAQ<small> this will help you get started</small></h2>
+			</div> <!-- End page header -->
+		
+		
+		<div class="panel-group" id="accordion-qa"> 	
+		
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title"><a href="#qa1" data-toggle="collapse" data-parent="#accordion-qa">Question 1</a></h4>
+				</div>
+				<div class="panel-collapse collapse in" id="qa-1">
+					<div class="panel-body">
+						this is where you'll get info about your question 1
+					</div><!-- End panel-body-->
+				</div> <!-- End collapse-->
+			</div> <!--End panel -->
 			
+			<div class="panel panel-default">	
+				<div class="panel-heading">
+					<h4 class="panel-title"><a href="#qa2" data-toggle="collapse" data-parent="#accordion-qa">Question 2</a></h4>
+				</div>
+				<div class="panel-collapse collapse" id="qa2">
+					<div class="panel-body">
+						this is where you'll get the info about question 2
+					</div><!-- End panel body -->
+				</div><!--End collapse -->
+			</div><!--End panel -->	
+			
+			<div class="panel panel-default">	
+				<div class="panel-heading">
+					<h4 class="panel-title"><a href="#qa3" data-toggle="collapse" data-parent="#accordion-qa">Question 3</a></h4>
+				</div>
+				<div class="panel-collapse collapse" id="qa3">
+					<div class="panel-body">
+						this is where you'll get the info about question 3
+					</div><!--End panel body -->
+				</div><!--End collapse -->
+			</div><!--end panel  -->
+			
+		</div> <!-- End panel group -->
+		</section>
+		
+		<!-- contact -->
+		<section>
+			<div class="page-header" id="section-contact"> 
+				<h2>Contact us<small> Lets get in touch</small></h2>
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-4">
+					<p>To send us a message, use the contact form info below</p>
+					
+					<address>
+						<strong>Web Labs, Ltd<strong><br >
+						Lisbon portugal-2780-105<br />
+					<abbr title="phone">P:</abbr>+36910394739
+					</address>	
+				</div>
+				<div class="col-lg-8">
+					<form action="#" class="form-horizontal" role="form">
+						<div class="form-group">
+							<label for="contact-name" class="col-lg-2 control-label">Name</label> 
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="contact-name" placeholder="name" />
+								</div>		
+						</div>
+						
+						<div class="form-group">
+							<label for="contact-name" class="col-lg-2 control-label">Email</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="contact-email" placeholder="email" />
+								</div>
+						</div>
+						
+						<div class="form-group">
+							<label for="contact-msg" class="col-lg-2 control-label">Message</label>
+							
+							<div class="col-lg-10">
+								<textarea name="contact-message" id="contact-message" class="form-control" cols="30" 
+								rows="10" placeholder="message"></textarea>
+							</div>
+						</div>
+				
+						<div class="form-group">
+							<div class="col-lg-10 col-lg-offset-2">
+								<button type="submit" class="btn btn-primary">Send message</button>
+							</div>
+						</div>
+					</form>
+				</div>
 			</div>
 		</section>
+		
+		<!-- FOOTER -->
+			<footer>
+			<hr />
+				<div class="container text-center">
+					<p>Careers</p>
+					<p>Locations</p>
+					
+					<form action="#" class="form-inline" role="form">
+						<div class="form-group">
+							<label for="subscribe-name" class="sr-only">Name </label>
+							<input type="text" class="form-control" id="subscribe-name" placeholder="name" />
+						</div> 
+						<div class="form-group">
+							<label for="subscribe-email" class="sr-only">Email</label>
+							<input type="text" class="form-control" id="subscribe-email" placeholder="Email" />
+						</div> <!-- End of form group-->
+						<button type="submit" class="btn btn-default">Submit</button>
+						<p>sign up for our news letter</p>
+						<p><small><em>Your email Will not be used for Spam</em></small></p>
+						<p><small><em>Terms and conditions apply</em></small></p>
+					</form>	
+				<hr />
+
+					<ul class="list-inline">
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Twitter</a></li>
+					</ul>
+					<p>&copy copyright 2016</p>
+				
+				</div>
+		
+			<footer>
+		
 	</div>
 	
-	
-
 </body>
+
 </html>
