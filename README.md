@@ -8,4 +8,7 @@ updated the section added the features section, and added a simple layout
 added a trail section, and added a image carousel, but that isnt working needs to be fixed , should be working tomorrow
 
 #landing-page-template-update3
-carousel still not working - ripping hait out
+carousel still not working - ripping hair out
+
+#landing-page-template-update-4
+all finished landing page works fine :) 
